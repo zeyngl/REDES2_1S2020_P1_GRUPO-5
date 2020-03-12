@@ -17,7 +17,70 @@
     "topology": {
         "computes": [],
         "drawings": [],
-        "links": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "75524623-b992-4e7a-8632-7c8c747be3bb",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "awdl0",
+                            "x": 80,
+                            "y": 74
+                        },
+                        "node_id": "e264cb3d-0e97-40fb-bff2-d42a1f692568",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 32,
+                            "y": -17
+                        },
+                        "node_id": "299dc51e-8a6d-4504-b473-59b53212658c",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "fc00a6e3-bb52-4f51-ae07-4d06294ea86a",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "s1/0",
+                            "x": 33,
+                            "y": 22
+                        },
+                        "node_id": "299dc51e-8a6d-4504-b473-59b53212658c",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "s1/0",
+                            "x": 33,
+                            "y": 22
+                        },
+                        "node_id": "9beec5b2-4569-4ff8-a167-17a21963e4fa",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
         "nodes": [
             {
                 "compute_id": "local",
@@ -31,8 +94,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R1",
-                    "x": 22,
-                    "y": -25
+                    "x": 41,
+                    "y": -21
                 },
                 "locked": false,
                 "name": "R1",
@@ -60,7 +123,7 @@
                     "platform": "c3725",
                     "ram": 128,
                     "slot0": "GT96100-FE",
-                    "slot1": null,
+                    "slot1": "NM-4T",
                     "slot2": null,
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
@@ -72,7 +135,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "ee7bca3a-5b69-461c-8529-50fb78d2749d",
                 "width": 66,
-                "x": -75,
+                "x": -74,
                 "y": -283,
                 "z": 1
             },
@@ -208,7 +271,7 @@
                 "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
                 "width": 159,
                 "x": -125,
-                "y": -445,
+                "y": -444,
                 "z": 1
             },
             {
@@ -252,7 +315,7 @@
                     "platform": "c3725",
                     "ram": 128,
                     "slot0": "GT96100-FE",
-                    "slot1": null,
+                    "slot1": "NM-4T",
                     "slot2": null,
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
@@ -627,5 +690,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.5",
-    "zoom": 100
+    "zoom": 155
 }
