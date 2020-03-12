@@ -4,3 +4,9 @@ Mar 11 23:26:21.948 HYPERVISOR: exec_cmd: hypervisor version
 Mar 11 23:26:21.949 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips 
 Mar 11 23:26:21.949 GENERAL: working_dir=/Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips
 Mar 11 23:26:21.949 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Mar 11 23:57:12.075 HYPERVISOR: exec_cmd: nio create_udp udp-92d56d46-f7f4-4203-8435-4009352c4b0b 10021 127.0.0.1 10020 
+Mar 11 23:57:12.077 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-92d56d46-f7f4-4203-8435-4009352c4b0b 
+Mar 11 23:57:12.100 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-92d56d46-f7f4-4203-8435-4009352c4b0b 1 
+Mar 11 23:57:20.987 HYPERVISOR: exec_cmd: nio create_udp udp-35b9a44e-9525-4a07-bf94-ff0eea310817 10023 127.0.0.1 10022 
+Mar 11 23:57:20.987 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-35b9a44e-9525-4a07-bf94-ff0eea310817 
+Mar 11 23:57:21.004 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-35b9a44e-9525-4a07-bf94-ff0eea310817 1 

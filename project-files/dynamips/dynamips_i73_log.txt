@@ -39,3 +39,7 @@ Mar 11 23:34:01.053 HYPERVISOR: exec_cmd: vm get_status R2
 Mar 11 23:34:01.054 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 1 0 
 Mar 11 23:39:20.421 HYPERVISOR: exec_cmd: vm extract_config R2 
 Mar 11 23:39:20.423 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 11 23:56:30.276 HYPERVISOR: exec_cmd: nio create_udp udp-15b7811c-98bd-4939-b5ea-4da8f7f0de1e 10008 127.0.0.1 10009 
+Mar 11 23:56:30.281 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-15b7811c-98bd-4939-b5ea-4da8f7f0de1e 
+Mar 11 23:56:30.283 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 11 23:56:30.284 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 0 

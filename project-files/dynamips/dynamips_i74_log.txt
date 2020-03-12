@@ -20,3 +20,7 @@ Mar 11 23:32:45.933 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /Users/giovannilo
 Mar 11 23:32:45.934 HYPERVISOR: exec_cmd: vm get_status R3 
 Mar 11 23:32:45.934 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
 Mar 11 23:32:45.935 HYPERVISOR: exec_cmd: vm start R3 
+Mar 11 23:56:49.166 HYPERVISOR: exec_cmd: nio create_udp udp-64e92ed6-93a9-4209-b97c-b0ff0a509cf4 10016 127.0.0.1 10017 
+Mar 11 23:56:49.396 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-64e92ed6-93a9-4209-b97c-b0ff0a509cf4 
+Mar 11 23:56:49.397 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 11 23:56:49.398 HYPERVISOR: exec_cmd: vm slot_enable_nio R3 0 0 

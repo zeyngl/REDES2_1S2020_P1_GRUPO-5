@@ -20,3 +20,7 @@ Mar 11 23:32:46.246 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /Users/giovannilo
 Mar 11 23:32:46.252 HYPERVISOR: exec_cmd: vm get_status R4 
 Mar 11 23:32:46.261 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
 Mar 11 23:32:46.264 HYPERVISOR: exec_cmd: vm start R4 
+Mar 11 23:56:45.297 HYPERVISOR: exec_cmd: nio create_udp udp-cd636726-dbf0-487b-9898-73e18cd37812 10012 127.0.0.1 10013 
+Mar 11 23:56:45.597 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-cd636726-dbf0-487b-9898-73e18cd37812 
+Mar 11 23:56:45.598 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 11 23:56:45.599 HYPERVISOR: exec_cmd: vm slot_enable_nio R4 0 0 
