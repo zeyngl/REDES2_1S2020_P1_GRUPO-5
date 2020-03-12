@@ -1,0 +1,30 @@
+Mar 11 23:11:55.458 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Mar 11 23:11:55.460 HYPERVISOR: Started on IP = localhost, TCP port = 56780.
+Mar 11 23:11:55.475 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 11 23:11:55.475 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips 
+Mar 11 23:11:55.475 GENERAL: working_dir=/Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips
+Mar 11 23:11:55.476 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips/9beec5b2-4569-4ff8-a167-17a21963e4fa 
+Mar 11 23:11:55.476 GENERAL: working_dir=/Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips/9beec5b2-4569-4ff8-a167-17a21963e4fa
+Mar 11 23:11:55.476 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Mar 11 23:11:55.476 VM: VM R2 created.
+Mar 11 23:11:55.477 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Mar 11 23:11:55.477 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Mar 11 23:11:55.478 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:11:55.478 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 11 23:11:55.479 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x602467a4 
+Mar 11 23:11:55.479 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Mar 11 23:11:55.479 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Mar 11 23:11:55.551 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:11:57.135 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:12:28.068 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:12:30.072 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:12:30.937 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:13:40.364 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:14:33.557 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:14:49.151 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:14:49.734 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:14:53.208 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:14:53.789 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:14:55.648 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:15:56.016 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 11 23:16:02.568 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/giovannilopez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 

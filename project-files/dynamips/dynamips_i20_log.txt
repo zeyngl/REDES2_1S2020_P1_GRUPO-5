@@ -1,0 +1,6 @@
+Mar 11 23:15:09.536 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Mar 11 23:15:09.537 HYPERVISOR: Started on IP = localhost, TCP port = 56899.
+Mar 11 23:15:09.543 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 11 23:15:09.543 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips 
+Mar 11 23:15:09.543 GENERAL: working_dir=/Users/giovannilopez/GNS3/projects/Practica1/project-files/dynamips
+Mar 11 23:15:09.544 HYPERVISOR: exec_cmd: ethsw create Switch1 
