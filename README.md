@@ -2,7 +2,7 @@ Universidad de San Carlos de Guatemala
 =========
 
 Esta es la practica # 1 realizada en el curso de Redes de computadoras 2 de la carrera de Ingenieria
-en Ciencias de Sistemas en la Universidad de San Carlos de GUatemal
+en Ciencias de Sistemas en la Universidad de San Carlos de Guatemala
 
 **Grupo #5**
 ---
