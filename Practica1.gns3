@@ -88,6 +88,24 @@
                 "x": 30,
                 "y": 325,
                 "z": 2
+            },
+            {
+                "drawing_id": "5b385a69-c80c-4974-9584-72968d1c42e0",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"71\" width=\"132\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">HSRP\nIp Virtual\n10.192.0.1/10</text></svg>",
+                "x": -408,
+                "y": -427,
+                "z": 2
+            },
+            {
+                "drawing_id": "d07e704f-67c0-49f6-b1f6-0aa3ab2e1d9a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"159\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.10.200.0 /29</text></svg>",
+                "x": -304,
+                "y": -219,
+                "z": 2
             }
         ],
         "links": [
@@ -552,6 +570,37 @@
                         },
                         "node_id": "fb2c692f-aef0-4b03-9d59-a4bb13a3e3c2",
                         "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "069a8475-c905-4dd6-9baf-e70e6bcbce71",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e4",
+                            "x": 55,
+                            "y": 50
+                        },
+                        "node_id": "142109b6-eaa8-41ff-ba66-78d4016e5536",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 12,
+                            "y": -4
+                        },
+                        "node_id": "db6fc307-9ffe-4d46-ae0d-cbc7a77f3c4b",
+                        "port_number": 0
                     }
                 ],
                 "suspend": false
@@ -1269,6 +1318,35 @@
                 "width": 65,
                 "x": 188,
                 "y": 416,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5018,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "HOST6",
+                    "x": 10,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "HOST6",
+                "node_id": "db6fc307-9ffe-4d46-ae0d-cbc7a77f3c4b",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": 284,
+                "y": 414,
                 "z": 1
             }
         ]

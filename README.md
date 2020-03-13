@@ -18,3 +18,14 @@ _201513696_
 _Juan Pablo Montufar_ <br>
 _200413657_
 <br><br>
+
+## Ruteo dinámico
+
+Verificar si el router está configurado con RIP
+```
+show ip route
+```
+
+## Redundancia
+HSRP
+
